@@ -1,0 +1,373 @@
+/* Google fonts */
+
+
+/* Global css codes*/
+body{}
+
+/* header section css codes */
+header{
+	background-color: #edeff1;
+	padding-bottom: 11px;
+    padding-top: 10px;
+}
+ ul li  {
+	  padding: 5px 12px;
+    background-color: #dd4b2b;
+    border-radius: 33px;
+    margin-right: 11px;
+   transition: 0.4s;
+    font-weight: 600;
+ }
+.navbar-nav ul li a{
+	color: #fff;
+ font-weight: 600;
+}
+.navbar-nav li:hover{
+	background-color: transparent;
+	 padding: 5px 12px;
+      border-radius: 33px;
+    margin-right: 11px;
+}
+
+
+
+/* Banner sction codes*/
+.banner-section{
+	background: url(../images/bg.png) no-repeat center;
+	background-size: cover;
+}
+.banner-section h1{
+	color:#fff;
+	text-align: center;
+	font-weight: 400;
+	margin-top: 372px;
+}
+.banner-section .p-1{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 100px;
+	font-size: 24px;
+    font-weight: 400;
+}
+
+.banner-section h3{
+	color: #fff;
+	margin: 16px 0px;
+}
+.banner-section p{
+	color: #fff;
+	line-height: 33px;
+}
+
+.banner-section button{
+	padding: 7px 30px;
+    border-radius: 25px;
+    background-color: #ffff;
+    color: orange;
+    margin-top: 71px;
+    margin-bottom: 100px;
+}
+
+/* news-section css codes*/
+.news-section{
+	background-color: #edeff1;
+	padding: 50px 0px;
+}
+.news-section h1{
+	margin-bottom: 71px;
+    margin-top: 19px;
+}
+.news-section h4{
+	margin-top: 26px;
+    margin-bottom: 20px;
+}
+.news-section p{
+	line-height: 34px;
+}
+.news-section button{
+	padding: 10px 41px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #4e5159;
+    font-size: 19px;
+    box-shadow: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.news-section button:hover{
+	background-color: #dd4b2b;
+	color:#fff;
+}
+
+/* News-letter section css codes */
+.news-letter{
+	background: url(../images/news-letter.png) no-repeat center;
+	background-size: cover;
+	
+	}
+	.newsletter-opacity{
+		background-color: rgba( 0,0,0,.5);
+		padding: 81px 0px;
+
+	}
+  .form-group{
+  	position: relative;
+  }
+
+.news-letter h2{
+	color:#fff;
+}
+.news-letter p{
+	color: #fff;
+	margin-bottom: 31px;
+}
+.form-group{
+	position: relative;
+}
+.form-control{
+	border-radius: 25px;
+    padding: 22px 24px;
+    font-size: 18px;
+}
+ .btn-signup{
+ 	position: absolute;
+    top: 125px;
+    right: 14px;
+    padding: 10px 42px;
+    border-radius: 25px;
+ }
+
+/* sign-up section css codes*/ 
+.sign-up{
+	background-color: #fff;
+	padding: 100px 0px;
+}
+
+.sign-up .img-fulid-1{
+	margin-left: 106px;
+    width: 464px;
+    height: 327px;
+}
+.sign-up h2{
+  
+}
+.sign-up .h-2{
+	margin-top: 70px;
+
+}
+.sign-up .img-fulid-2{
+     margin-right: : 106px;
+     width: 464px;
+    height: 327px;
+    margin-top: 70px
+}
+.sign-up .p-2{
+    width: 619px;
+   line-height: 35px;
+   margin-left: -12px;
+}
+ .sign-up .p-3{
+ 	width: 115%;
+    line-height: 36px;
+    margin-left: -19px;
+
+ }
+.sign-up .btn-1{
+	padding: 12px 54px;
+    border-radius: 25px;
+    font-size: 19px;
+    background-color: #dd4b2b;
+    margin-bottom: 85px;
+    color: #fff;
+}
+.sign-up .btn-2{
+	padding: 12px 54px;
+    border-radius: 25px;
+    font-size: 19px;
+    background-color: #4b4e73;
+    color: #fff;
+   }
+   .sign-up .btn-1:hover{
+     background-color:#dd4b2b ;
+   }
+   .sign-up .btn-2:hover{
+   	background-color:#dd4b2b ;
+   }
+/* footer-1 section css codes */
+.footer-1{
+	background-color: #d75d0e;
+	padding: 50px 0px;
+}
+ .footer-1 ul li{
+	list-style: none;
+	padding: 10px 0px;
+	    color: #fff;
+    font-size: 19px;
+}
+
+.footer1-menu li{
+  background-color: none;
+}
+
+/*footer-2 section css codes*/
+.footer-2{
+	background: url(../images/footer.png) no-repeat center;
+	background-size: cover;
+}
+.footer-opacity{
+	background: rgba(0,0,0,.5);
+	padding: 50px 0px;
+}
+.footer-2 p{
+	 color: #fff;
+    padding: 50px 0px;
+    font-size: 19px;
+}
+.footer-2 a{
+	color: #fff;
+}
+.footer-2 a:hover{
+	color: #dd4b2b;
+}
+/* Media query for mobile device*/
+@media (min-width: 320px) and (max-width:500px){
+  .banner-section h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 158px;
+    font-size: 39px;
+}
+
+.news-section p {
+    line-height: 32px;
+    width: 85%;
+    margin-left: 27px;
+}
+.news-section button {
+    margin-bottom: 75px;
+}
+
+.btn-signup {
+top: 149px;
+}
+.sign-up h2 {
+    text-align: center;
+}
+.sign-up .p-2 {
+    width: 440px;
+    line-height: 35px;
+    margin-left: -12px;
+    text-align: center;
+}
+.sign-up .p-3 {
+    width: 108%;
+text-align: center;
+}
+
+.sign-up .btn-1 {
+    margin-left: 131px;
+}
+.sign-up .img-fulid-1 {
+    margin-left: 3px;
+    width: 443px;
+    height: 305px;
+    margin-top: 20px;
+}
+
+.sign-up .img-fulid-2 {
+    margin-right: : 106px;
+    width: 446px;
+    height: 312px;
+    margin-top: 82px;
+}
+
+.sign-up .btn-2 {
+  margin-left: 135px;
+    margin-top: 17px;
+}
+
+.footer-2 p {
+    
+    line-height: 41px;
+}
+
+}
+
+/* Media query for tablet device*/
+@media (min-width: 501px) and (max-width: 768px) {
+.banner-section h1 {
+    margin-top: 146px;
+}
+
+.banner-section p {
+    color: #fff;
+    line-height: 33px;
+    margin-bottom: 48px;
+}
+
+.banner-section button {
+    margin-top: 6px;
+    margin-bottom: 81px;
+}
+
+.news-section h4 {
+    margin-top: 26px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.news-section p {
+    line-height: 38px;
+}
+
+.news-section button {
+    margin-top: 31px;
+    margin-bottom: 70px;
+}
+.sign-up h2 {
+    text-align: center;
+    margin-bottom: 21px;
+}
+.sign-up .p-3 {
+    width: 109%;
+    line-height: 36px;
+    text-align: center;
+}
+.sign-up .btn-1 {
+    margin-left: 190px;
+    margin-top: 16px;
+}
+
+.sign-up .img-fulid-2 {
+    margin-right: : 106px;
+    width: 485px;
+    height: 327px;
+    margin-top: 86px;
+    margin-left: 24px;
+}
+.sign-up .btn-2 {
+   margin-left: 157px;
+    margin-top: 13px;
+}
+
+.sign-up .img-fulid-1 {
+    margin-left: 36px;
+    width: 484px;
+    height: 327px;
+}
+.sign-up .img-fulid-2 {
+    margin-right: : 106px;
+    width: 487px;
+    height: 327px;
+    margin-top: 86px;
+    margin-left: 24px;
+}
+
+.footer-2 p {
+    color: #fff;
+    padding: 50px 0px;
+    font-size: 19px;
+    line-height: 38px;
+}
+
+}
